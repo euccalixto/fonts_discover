@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doc</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    p{
+      width: 20%;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.5rem;
+    }
+    p.o{
+      text-decoration: underline wavy #d43 0.1rem;
+      text-align: center;
+      text-shadow: 0px 0px 10px #5ff;
+    }
+    p.p{
+      text-decoration: overline solid #d43 0.2rem;
+      text-align: left;
+      text-shadow: 0px 30px 10px #5ff;
+    }
+
+    p.q{
+      text-decoration: line-through dashed #d43 0.3rem;
+      text-align: right;
+      transition: text-shadow 200ms ease-in-out 10ms, transform 200ms ease-in-out;
+    }
+
+    p.q:hover{
+      transform:scale( 1.2) translate(-20px, -20px);
+      text-shadow: 20px 20px 2px #555;
+    }
+
+    p.r{
+      text-decoration: underline dotted #d43 0.4rem;
+      text-align: center;
+  
+    }
+
+    p.s{
+      text-decoration: underline double #d43 0.5rem;
+      text-align: justify;
+    }
+
+    p.font-shorthand{
+      /* -style, -variant, -weight, -stretch, -size, -line-height, -family */
+      font: 800 2.5rem 'Arial', sans-serif;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <p class="o">example o</p>
+  <p class="p">example p</p>
+  <p class="q">example q</p>
+  <p class="r">example r</p>
+  <p class="s">example s</p>
+  <p class="font-shorthand">example font-shorthand</p>
+
+</body>
+</html>
